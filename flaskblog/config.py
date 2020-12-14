@@ -1,12 +1,18 @@
 
 import secrets
 
+# the general application config.. - at the root directly..
+# where all the application constants is being set...
+
+
 class Config:
 
-    SECRET_KEY = secrets.token_hex(18) 
-    SQLALCHEMY_DATABASE_URI = 'sqlite:///mysite.db'  
+    # configue the secrets here.. for hashing passwords...
+    # and using the sqllite database....
+    SECRET_KEY = secrets.token_hex(18)
+    SQLALCHEMY_DATABASE_URI = 'sqlite:///mysite.db'
 
-    #CONFIGURE MAIL.. 
+    # CONFIGURE MAIL..
     MAIL_SERVER = 'smtp.gmail.com'
     MAIL_PORT = 587
     MAIL_USE_TLS = True
