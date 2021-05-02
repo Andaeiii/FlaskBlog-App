@@ -15,6 +15,10 @@ Flask Specific pip packages used..
 General Pip Packages used... 
 - secrets
 - wt_forms
-- PIL # for image manipulation
+- PIL ~ for image manipulation
+
+## Note 
+
+pip install \<packageName\>  ~  to get up and running with each package.... 
 
 
