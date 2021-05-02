@@ -12,5 +12,9 @@ Flask Specific pip packages used..
 - flaskblog.config
 - flask_wtf
 
+General Pip Packages used... 
+- secrets
+- wt_forms
+- PIL # for image manipulation
 
 
